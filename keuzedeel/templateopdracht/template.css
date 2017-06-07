@@ -1,0 +1,76 @@
+html {
+     display: table;
+     margin: auto;
+ }
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
+nav{
+    width:960px;
+}
+
+#search{
+    padding: 5px;
+    margin:10px;
+    float:right;
+}
+
+.tennisbg{
+    padding-top: 5px;
+    width:960px;
+    height: 270px;
+}
+.tennisbgtekst{
+    background-color: dodgerblue;
+    font-size: larger;
+    font-family: "MS PGothic";
+    float: center;
+
+}
+
+#text{
+    float: right;
+}
+
+.foto1{
+    width:225px;
+    height: 80px;
+    float: left;
+    margin-right:15px;
+}
+
+.foto2{
+    background-color: black;
+    width:105px;
+    height: 80px;
+    float: left;
+    margin-right:15px;
+}

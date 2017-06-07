@@ -1,0 +1,167 @@
+$backgroundcolor:  rgba(207, 215, 255, 0.51);
+
+
+nav{
+  ul{
+    li{
+      list-style-type: none;
+      display: inline;
+      margin: 20px;
+    }
+  }
+
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    ul{
+      li{
+        list-style-type: none;
+        display: block;
+        margin: 20px;
+        text-align: center;
+        font-size: 275%;
+      }
+    }
+
+    background-color: #D6DDF6;
+    border: double;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+}
+
+.container{
+
+  p {
+    font-size: 14px;
+  }
+
+  nav{
+    background-color: $backgroundcolor;
+  }
+  main{
+    background-color: $backgroundcolor;
+    width: 50%;
+    float: left;
+
+    h1{
+      font-size: 18px;
+    }
+    p{
+      color: red;
+    }
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    {
+      width:100%;
+      float:left;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      h1 {
+        font-size: 500%;
+      }
+
+      p{
+        font-size: 300%;
+      }
+
+    }
+
+
+    @media only screen
+    and (min-device-width: 700px)
+    and (max-device-width: 768px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+      width:100%;
+      float:left;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+      h1 {
+        font-size: 250%;
+      }
+
+      p{
+        font-size: 200%;
+      }
+
+    }
+
+    }
+
+    }
+
+
+
+  aside{
+
+
+    background-color: $backgroundcolor;
+    width: 20%;
+    float: right;
+
+    p{
+      color: green;
+    }
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    {
+      width:100%;
+      float:left;
+      font-size:300% ;
+      margin-top: 40px;
+
+      p {
+        font-size: 100%;
+      }
+    }
+
+    @media only screen
+    and (min-device-width: 700px)
+    and (max-device-width: 768px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    {
+      width:100%;
+      float:left;
+      font-size:500% ;
+      margin-top: 40px;
+
+      p {
+        font-size: 450%;
+      }
+    }
+
+  }
+  footer {
+    background-color: $backgroundcolor;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    ul {
+      li {
+        list-style-type: none;
+        display: inline;
+        margin: 40px;
+      }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+      ul {
+        li {
+          font-size: 250%;
+        }
+
+      }
+
+    }
+  }

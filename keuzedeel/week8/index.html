@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    function test() {
+        var naam;
+        naam = document.getElementById("test").value;
+        document.write(naam);
+    }
+
+</script>
+<!--<input type="button" value="button" id="test" onclick="test()">-->
+
+<input type="number" id="getal1">
+<input type="number" id="getal2">
+<input type="button" value="Bereken" onclick="test()">
+
+<script>
+
+    var random = Math.random() *3;
+    var getal = Math.floor(random);
+    document.write(getal);
+</script>
+
+<p id="random"> </p>
+
+
+</body>
+</html>

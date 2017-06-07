@@ -1,0 +1,52 @@
+body{
+}
+
+h2{
+    text-align:center;
+    font-size:16px;
+}
+.top-header{
+    width:960px;
+    margin:0 auto;
+    background-color:green;
+}
+
+.container{
+    width:960px;
+    margin: 0 auto;
+    font-size:0;
+}
+.container nav {
+    background-color: red;
+    display: inline-block;
+    width:10%;
+    height:600px;
+    vertical-align: top;
+}
+
+.container aside{
+    background-color: orange;
+    display: inline-block;
+    width: 10%;
+    height:600px;
+    vertical-align: top;
+}
+
+
+.container main{
+    background-color: brown;
+    display: inline-block;
+    width: 80%;
+    height:600px;
+}
+.container article{
+    background-color: cornflowerblue;
+}
+
+.container footer{
+    background-color: aqua;
+}
+
+.container header{
+    background-color:blue;
+}

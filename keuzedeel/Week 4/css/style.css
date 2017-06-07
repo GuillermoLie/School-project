@@ -1,0 +1,89 @@
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  nav {
+    background-color: #D6DDF6;
+    border: double;
+    margin-bottom: 15px;
+    margin-top: 25px; }
+    nav ul li {
+      list-style-type: none;
+      display: block;
+      margin: 20px;
+      text-align: center;
+      font-size: 275%; } }
+
+.container p {
+  font-size: 14px; }
+.container nav {
+  background-color: rgba(207, 215, 255, 0.51); }
+.container main {
+  background-color: rgba(207, 215, 255, 0.51);
+  width: 50%;
+  float: left; }
+  .container main h1 {
+    font-size: 18px; }
+  .container main p {
+    color: red; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container main {
+      width: 100%;
+      float: left;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+      .container main h1 {
+        font-size: 500%; }
+      .container main p {
+        font-size: 300%; } }
+  @media only screen and (min-device-width: 700px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container main {
+      width: 100%;
+      float: left;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+      .container main h1 {
+        font-size: 250%; }
+      .container main p {
+        font-size: 200%; } }
+
+aside {
+  background-color: rgba(207, 215, 255, 0.51);
+  width: 20%;
+  float: right; }
+  aside p {
+    color: green; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    aside {
+      width: 100%;
+      float: left;
+      font-size: 300%;
+      margin-top: 40px; }
+      aside p {
+        font-size: 100%; } }
+  @media only screen and (min-device-width: 700px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    aside {
+      width: 100%;
+      float: left;
+      font-size: 500%;
+      margin-top: 40px; }
+      aside p {
+        font-size: 450%; } }
+
+footer {
+  background-color: rgba(207, 215, 255, 0.51);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center; }
+  footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 40px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    footer ul li {
+      font-size: 250%; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Test </title>
+</head>
+<body>
+<script>
+    var cijfer = 10;
+
+    function cookieClick(number){
+        cijfer = cijfer - number;
+        document.getElementById("cijfer").innerHTML = cijfer  ;
+
+    }
+
+    var cursors = 0;
+
+    function kleur() {
+        kleuren=prompt("what color must it be m8");
+        document.getElementById("cijfer").style.backgroundColor=kleuren;
+    }
+
+
+</script>
+
+<button onclick="cookieClick(1)">Click Me!</button>
+<br />
+cijfer: <span id="cijfer">10</span>
+<br />
+<button onclick="kleur();">Klik hier om de kleur te veranderen</button>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
